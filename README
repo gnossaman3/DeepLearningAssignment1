@@ -1,0 +1,11 @@
+In order to produce all graphs, simply run Main.py
+
+All graphs included in this file are labels by first the algorithm type: Boosting, DTree (Decision Tree), KNN, NN, and
+SVM. THis is then followed by LearningCurve or ValidCurve for the two different types of curves produced. If
+LearningCurve is in the filename and the algorithm type is iterative there will be a secondary LearningCurve file with
+Times after LearningCurve to denote the learning curve graph that shows the fit times. For Validation Curves it will be
+followed by the parameter tuned for. Finally all graph filenames will by ended with either Income or Music denoting
+which dataset the graph is for.
+
+Under the folder Data, there are two csv files, income evaluation and music_train. These datasets are the two
+interesting datasets chosen to be used when training and tuning the algorithms.
